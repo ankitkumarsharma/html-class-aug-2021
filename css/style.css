@@ -1,3 +1,21 @@
 h2{
     color: red;
 }
+#leftHeaderPart {
+    width: 20%;
+    float: left;
+}
+#rightHeaderPart {
+    width: 75%;
+    float: left;
+}
+ul{
+    display: inline-block;
+}
+ul .item {
+    display: inline-block;
+    margin: 15px;
+}
+ ul .item span {
+
+ }
