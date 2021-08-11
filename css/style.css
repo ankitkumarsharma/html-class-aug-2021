@@ -4,13 +4,17 @@ h2{
 #leftHeaderPart {
     width: 20%;
     float: left;
+    margin: 15px;
+    
 }
 #rightHeaderPart {
     width: 75%;
     float: left;
+    text-align: right;
 }
 ul{
     display: inline-block;
+    margin: 0px;
 }
 ul .item {
     display: inline-block;
@@ -18,4 +22,43 @@ ul .item {
 }
  ul .item span {
 
+ }
+ .content-part .banner-img{
+    width: 100%;
+    height: 300px;
+
+ }
+ header{
+    height: 50px;
+    background-color: #007480;
+    color: #fff;
+ }
+ .four-blocks{
+     width: 80%;
+     margin: auto;
+     height: 215px;
+     background: #ddd;
+ }
+ .four-blocks .item{
+    width: 20%;
+    float: left;
+    margin: 0 20px;
+ }
+ .four-blocks .item h3{
+    text-align: center;
+    color: red;
+ }
+ .four-blocks .item p{
+     text-align: justify;
+ }
+ .parent{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    height: 300px;
+ }
+ .baap .beta{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
  }
