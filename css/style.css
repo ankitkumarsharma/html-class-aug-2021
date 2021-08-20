@@ -85,3 +85,9 @@ ul .item {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
  }
+ .about-block .row {
+     border: 1px solid #fff;
+ }
+ .about-block .row .col {
+    border: 1px solid red;
+}
