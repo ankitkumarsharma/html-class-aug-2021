@@ -13,7 +13,8 @@ function cube(num){
     return num*num*num;   // function return
 }
 function sum(num){    // function declare with parameters
-    num = num + 1;
+    console.log("Num", num)
+    num = Number(num) + 1;
     console.log(num);
     return num;
 }
@@ -22,6 +23,7 @@ function sum(num){    // function declare with parameters
 
 function esStart(){
     let inputValue =  document.getElementById("num1").value;
+    console.log(inputValue)
     document.getElementById("cube").innerHTML = cube(inputValue);
     console.log(cube(inputValue)); 
     sum(inputValue); // function calling/invocation
